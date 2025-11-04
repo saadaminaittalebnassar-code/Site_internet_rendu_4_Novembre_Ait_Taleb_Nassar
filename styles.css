@@ -1,0 +1,81 @@
+header ul {
+  list-style: none;
+  text-align: left;
+  display: flex; /* Pour tout mettre sur la même ligne */
+  justify-content: flex-end; /* aligne tout à droite */
+  background-color: #87cefa;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+main {
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #48b4af;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+footer {
+  list-style: none;
+  display: flex; /* Pour tout mettre sur la même ligne */
+  justify-content: flex-start;
+  background-color: #87cefa;
+  gap: 20px; /* Espace entre les logos */
+  padding: 0; /* Enlève les marges internes du ul */
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex; /* aligne sur la même ligne */
+  justify-content: center; /* centre les logos */
+  gap: 20px; /* espace entre eux */
+  padding: 0;
+  margin: 0;
+}
+
+/* Taille uniforme des logos */
+footer .logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
